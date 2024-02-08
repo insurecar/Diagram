@@ -1,0 +1,28 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.menu {
+  flex: 0 0 100px;
+  background-color: lightblue;
+}
+
+.content {
+  flex: 1;
+  background-color: lightgreen;
+}
+
+.footer {
+  flex: 0 0 100px;
+  background-color: black;
+  margin-top: auto;
+  display: flex;
+  justify-content: end;
+}
+
+.footer img {
+  //   background: red;
+  padding: 10px;
+}
